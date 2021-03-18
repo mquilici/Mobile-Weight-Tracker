@@ -27,9 +27,9 @@ One particularly tricky challenge to overcome was adding alternating background 
 After completing the basic app requirements, I decided to add additional features such as weight units (kg or lb), a dark mode, and a graph of the weights. I think these elements demonstrate my experience with app development as they show that I can create new features that go beyond the existing coursework. The weight plotting activity required the use of the Hellocharts library, reading the data from the SQLite database, and using the appropriate methods to add the data to the plot.
 
 
-![](screenshots/Weight_Table.jpeg)
+![](images/Weight_Table.jpeg)
 
-![](screenshots/Weight_Plot.jpeg)
+![](images/Weight_Plot.jpeg)
 
-![](screenshots/BMI_Plot.jpeg)
+![](images/BMI_Plot.jpeg)
 
