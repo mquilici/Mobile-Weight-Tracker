@@ -28,7 +28,7 @@ After completing the basic app requirements, I decided to add additional feature
 
 
 <p align="center">
-     <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Table_Light.jpeg" alt="alt text" width="300px" style="float: left; padding-right: 50px;">
+     <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Table_Light.jpeg" alt="alt text" width="300px" hspace="20">
      <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Weight_Table.jpeg" alt="alt text" width="300px">
 </p>
 <p align="center">
