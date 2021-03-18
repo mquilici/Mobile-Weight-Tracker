@@ -29,11 +29,12 @@ After completing the basic app requirements, I decided to add additional feature
 
 <p align="center">
      <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Table_Light.jpeg" alt="alt text" width="300px">
-     <spacer type="horizontal" width="50" height="300"> ♢ </spacer>
+     <spacer type="horizontal" width="50" height="300"> </spacer>
      <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Weight_Table.jpeg" alt="alt text" width="300px">
 </p>
 <p align="center">
      <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Weight_Plot.jpeg" alt="alt text" width="300px">
+     <spacer type="horizontal" width="50" height="300"> </spacer>
      <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/BMI_Plot.jpeg" alt="alt text" width="300px">
 </p>
 
