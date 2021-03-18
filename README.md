@@ -27,11 +27,11 @@ One particularly tricky challenge to overcome was adding alternating background 
 After completing the basic app requirements, I decided to add additional features such as weight units (kg or lb), a dark mode, and a graph of the weights. I think these elements demonstrate my experience with app development as they show that I can create new features that go beyond the existing coursework. The weight plotting activity required the use of the Hellocharts library, reading the data from the SQLite database, and using the appropriate methods to add the data to the plot.
 
 
-<p float="center">
+<p align="center">
      <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Table_Light.jpeg" alt="alt text" width="300px">
      <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Weight_Table.jpeg" alt="alt text" width="300px">
 </p>
-<p float="center">
+<p align="center">
      <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Weight_Plot.jpeg" alt="alt text" width="300px">
      <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/BMI_Plot.jpeg" alt="alt text" width="300px">
 </p>
