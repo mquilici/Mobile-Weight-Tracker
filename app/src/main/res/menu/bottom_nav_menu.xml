@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_table"
+        android:icon="@drawable/ic_table"
+        android:title="@string/table" />
+    <item
+        android:id="@+id/navigation_plot_weights"
+        android:icon="@drawable/ic_plot"
+        android:title="@string/plot" />
+    <item
+        android:id="@+id/navigation_plot_bmi"
+        android:icon="@drawable/ic_plot_bmi"
+        android:title="@string/bmi" />
+    <item
+        android:id="@+id/navigation_set_goal_weight"
+        android:icon="@drawable/ic_goal"
+        android:title="@string/goal" />
+</menu>

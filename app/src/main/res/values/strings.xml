@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Weight Tracker</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="set_goal_weight">Set Goal Weight</string>
+    <string name="enter_goal_weight">Enter Goal Weight</string>
+    <string name="weight_loss">Weight Loss</string>
+    <string name="weight_gain">Weight Gain</string>
+    <string name="date_header">Date</string>
+    <string name="weight_header">Weight</string>
+    <string name="delete">Delete</string>
+    <string name="time">Time</string>
+    <string name="weight">Weight</string>
+    <string name="edit">Edit</string>
+    <string name="date">Date</string>
+    <string name="plot_weights">Plot Weights</string>
+    <string name="weight_table_title">Weight Table</string>
+    <string name="add_weight_title">Add a Weight</string>
+    <string name="goal_weight_title">Set a Goal Weight</string>
+    <string name="weight_plotter_title">Plotted Weights</string>
+    <string name="delta">Delta</string>
+    <string name="undo">Undo</string>
+    <string name="weight_deleted">Weight Deleted</string>
+    <string name="settings">Settings</string>
+    <string name="clear_all_weights">Clear All Weights</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+    <string name="clear_weights_prompt">Are you sure you want to clear all of your weights?</string>
+    <string name="yes">Yes</string>
+    <string name="goal_weight_activity_title">Set a Goal Weight</string>
+    <string name="add_weight_activity_title">Add a Weight</string>
+    <string name="weight_table_activity_title">Weight Table</string>
+    <string name="settings_activity_title">Settings</string>
+    <string name="weight_plotter_activity_title">Plotted Weights</string>
+    <string name="select_weight_units">Select weight units</string>
+    <string name="please_enter_a_weight">Please enter a weight</string>
+    <string name="please_enter_a_goal_weight">Please enter a goal weight</string>
+    <string name="calendar">calendar icon</string>
+    <string name="pounds">Pounds</string>
+    <string name="kilograms">Kilograms</string>
+    <string name="plot_bmi">Plot BMI</string>
+    <string name="lb">lb</string>
+    <string name="in">in</string>
+    <string name="ft">ft</string>
+    <string name="cm">cm</string>
+
+    <string name="english">English</string>
+    <string name="metric">Metric</string>
+    <string name="table">Table</string>
+    <string name="plot">Plot</string>
+    <string name="bmi">BMI</string>
+    <string name="goal">Goal</string>
+    <string name="add_weight">Add Weight</string>
+    <string name="goal_weight">Goal Weight</string>
+
+    <string-array name="unitArray">
+        <item>English</item>
+        <item>Metric</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_table">
+
+    <fragment
+        android:id="@+id/navigation_table"
+        android:name="com.zybooks.weighttracker.TableFragment"
+        android:label="@string/weight_table_title"
+        tools:layout="@layout/fragment_table" >
+        <action
+            android:id="@+id/action_navigation_table_to_navigation_add_weight"
+            app:destination="@id/navigation_add_weight" />
+        <action
+            android:id="@+id/action_navigation_table_to_navigation_set_goal_weight"
+            app:destination="@id/navigation_set_goal_weight" />
+        <action
+            android:id="@+id/action_navigation_table_to_navigation_plot_weights"
+            app:destination="@id/navigation_plot_weights" />
+        <action
+            android:id="@+id/action_navigation_table_to_navigation_plot_bmi"
+            app:destination="@id/navigation_plot_bmi" />
+        <action
+            android:id="@+id/action_navigation_table_to_navigation_settings"
+            app:destination="@id/navigation_settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_weight"
+        android:name="com.zybooks.weighttracker.AddWeightFragment"
+        android:label="@string/add_weight"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/navigation_set_goal_weight"
+        android:name="com.zybooks.weighttracker.GoalFragment"
+        android:label="@string/set_goal_weight"
+        tools:layout="@layout/fragment_goal" />
+
+    <fragment
+        android:id="@+id/navigation_plot_weights"
+        android:name="com.zybooks.weighttracker.PlotFragment"
+        android:label="Weight Plot"
+        tools:layout="@layout/fragment_plot" />
+
+    <fragment
+        android:id="@+id/navigation_plot_bmi"
+        android:name="com.zybooks.weighttracker.BmiFragment"
+        android:label="BMI Plot"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.zybooks.weighttracker.SettingsActivity"
+        android:label="@string/settings"
+        tools:layout="@layout/activity_settings" />
+
+</navigation>

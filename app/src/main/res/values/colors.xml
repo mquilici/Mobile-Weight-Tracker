@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#f00</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="green">#0a0</color>
+    <color name="transparent">#0000</color>
+    <color name="colorDarkText">#f444</color>
+    <color name="colorLightText">#fff</color>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryLight">#75a7ff</color>
+    <color name="colorPrimaryMedium">#2979ff</color>
+    <color name="colorPrimaryDark">#004ecb</color>
+    <color name="colorPrimaryDarker">#000000</color>
+    <color name="colorAccent">#2979ff</color>
+    <color name="colorTableLight">#3fff</color>
+    <color name="colorTableDark">#3777</color>
+    <color name="colorTableSelected">#75a7ff</color>
+    <color name="colorTableHeader">#2979ff</color>
+    <color name="colorPlotLine">#884444ff</color>
+    <color name="colorGoalLine">#0a0</color>
+    <color name="colorEditTextPrimary">#0fff</color>
+    <color name="colorShadow">#fccc</color>
+    <color name="colorGradientStart">#0fff</color>
+    <color name="colorGradientEnd">#800f</color>
+
+    <color name="colorUnderweight">#ffffff</color>
+    <color name="colorNormal">#ffff32</color>
+    <color name="colorOverweight">#ffc896</color>
+    <color name="colorObese">#ff9632</color>
+    <color name="bmiLineColorLight">#44000000</color>
+    <color name="bmiLineColorDark">#88000000</color>
+    <color name="bmiLabelColor">#00FFFFFF</color>
+    <color name="bmiPointColor1">#88FFFFFF</color>
+    <color name="bmiPointColor2">#FF000000</color>
+    <color name="bmiTextColor">#000000</color>
+
+</resources>

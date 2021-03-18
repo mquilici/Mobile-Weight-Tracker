@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AddWeightFragment">
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/date"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/weightTextView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/weight"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/bmiTextView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/bmi"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/deltaTextView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/delta"
+        android:ems="10"/>
+
+</LinearLayout>

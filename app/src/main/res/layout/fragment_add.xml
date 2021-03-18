@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWeightFragment"
+    android:background="@color/colorPrimary"
+    android:id="@+id/add_fragment">
+
+    <EditText
+        android:id="@+id/addWeightEditText"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/enter_weight"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:focusedByDefault="true"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/addDateEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/addWeightUnitTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:padding="8dp"
+        android:text="@string/lb"
+        app:layout_constraintBottom_toBottomOf="@+id/addWeightEditText"
+        app:layout_constraintEnd_toEndOf="@+id/addWeightEditText"
+        app:layout_constraintTop_toTopOf="@+id/addWeightEditText" />
+
+    <EditText
+        android:id="@+id/addDateEditText"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_date"
+        android:inputType="date"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:padding="8dp"
+        android:background="@drawable/rounded_edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/addDateCalendarIcon"
+        android:contentDescription="@string/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/addDateEditText"
+        app:layout_constraintEnd_toEndOf="@+id/addDateEditText"
+        app:layout_constraintTop_toTopOf="@+id/addDateEditText"
+        app:srcCompat="@drawable/ic_calendar"/>
+
+    <Button
+        android:id="@+id/addWeightCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/cancel"
+        android:textColor="@color/colorPrimaryMedium"
+        app:cornerRadius="32dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/addDateEditText"
+        app:layout_constraintTop_toBottomOf="@+id/addDateEditText"
+        app:strokeColor="@color/colorPrimaryMedium"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/addWeightOkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/ok"
+        android:textColor="@color/colorPrimary"
+        app:cornerRadius="32dp"
+        app:backgroundTint="@color/colorPrimaryMedium"
+        app:layout_constraintEnd_toEndOf="@+id/addDateEditText"
+        app:layout_constraintTop_toBottomOf="@+id/addDateEditText" />
+
+    <TextView
+        android:id="@+id/addWeightErrorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/addWeightOkButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDateEditText" />
+
+    <TextView
+        android:id="@+id/addWeightTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorShadow"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="@string/add_weight"
+        android:textColor="@color/colorDarkText"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/addWeightEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

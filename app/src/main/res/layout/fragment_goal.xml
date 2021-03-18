@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/goal_fragment"
+    android:background="@color/colorPrimary"
+    tools:context=".GoalFragment" >
+
+    <EditText
+        android:id="@+id/goalWeightEditText"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_goal_weight"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:focusedByDefault="true"
+        android:padding="8dp"
+        android:background="@drawable/rounded_edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/goalWeightUnitTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:padding="8dp"
+        android:text="@string/lb"
+        app:layout_constraintBottom_toBottomOf="@+id/goalWeightEditText"
+        app:layout_constraintEnd_toEndOf="@+id/goalWeightEditText"
+        app:layout_constraintTop_toTopOf="@+id/goalWeightEditText" />
+
+    <Button
+        android:id="@+id/goalWeightCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/cancel"
+        android:textColor="@color/colorPrimaryMedium"
+        app:cornerRadius="32dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/goalWeightEditText"
+        app:layout_constraintTop_toBottomOf="@+id/goalWeightEditText"
+        app:strokeColor="@color/colorPrimaryMedium"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/goalWeightOkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/ok"
+        android:textColor="@color/colorPrimary"
+
+        app:cornerRadius="32dp"
+        app:backgroundTint="@color/colorPrimaryMedium"
+        app:layout_constraintEnd_toEndOf="@+id/goalWeightEditText"
+        app:layout_constraintTop_toBottomOf="@+id/goalWeightEditText" />
+
+    <TextView
+        android:id="@+id/goalWeightErrorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/goalWeightOkButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goalWeightEditText" />
+
+    <RadioGroup
+        android:id="@+id/goalWeightRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/goalWeightEditText"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <RadioButton
+            android:id="@+id/goalWeightGainRadioButton"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:buttonTint="@color/colorPrimaryMedium"
+            android:text="@string/weight_gain" />
+
+        <RadioButton
+            android:id="@+id/goalWeightLossRadioButton"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:buttonTint="@color/colorPrimaryMedium"
+            android:checked="true"
+            android:text="@string/weight_loss" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorShadow"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="@string/goal_weight"
+        android:textColor="@color/colorDarkText"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/goalWeightRadioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

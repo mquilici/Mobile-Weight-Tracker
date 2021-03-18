@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:windowSoftInputMode="stateHidden">
+
+    <PreferenceCategory
+        android:key="appearance_category"
+        android:title="Appearance">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="night_mode"
+            android:title="Night Mode" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="table_category"
+        android:title="Table">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="goal_column"
+            android:title="Goal Column"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="bmi_column"
+            android:title="BMI Column" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="user_category"
+        android:title="User Information">
+
+        <com.zybooks.weighttracker.HeightPickerEnglishPreference
+            android:key="pref_height"
+            android:title="Height"
+            android:defaultValue="70"
+            android:summary="Enter Height" />
+
+        <com.zybooks.weighttracker.HeightPickerMetricPreference
+            android:key="pref_height_metric"
+            android:title="Height"
+            android:defaultValue="178"
+            android:summary="Enter Height" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="unit_category"
+        android:title="Units">
+
+        <ListPreference
+            android:key="weight_unit"
+            android:title="Units"
+            android:summary="English"
+            android:defaultValue="English"
+            android:entries="@array/unitArray"
+            android:entryValues="@array/unitArray" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="other_category"
+        android:title="Other">
+
+        <Preference
+            android:key="pref_clear"
+            android:summary="Clear all weights from the table"
+            android:title="Clear Weights"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
