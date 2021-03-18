@@ -28,13 +28,9 @@ After completing the basic app requirements, I decided to add additional feature
 
 
 <p align="center">
-     <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Table_Light.jpeg" alt="alt text" width="300px" hspace="20">
-     <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Weight_Table.jpeg" alt="alt text" width="300px" hspace="20">
-</p>
-<p align="center">
-     <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Plot_Light.jpeg" alt="alt text" width="300px" hspace="20">
-     <spacer type="horizontal" width="50" height="300">   </spacer>
-     <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/BMI_Light.jpeg" alt="alt text" width="300px" hspace="20">
+     <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Table_Light.jpeg" alt="alt text" width="300px" hspace="10">
+     <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/Plot_Light.jpeg" alt="alt text" width="300px" hspace="10">
+     <img src="https://github.com/mquilici/Mobile-Weight-Tracker/blob/master/images/BMI_Light.jpeg" alt="alt text" width="300px" hspace="10">
 </p>
 
 
