@@ -159,7 +159,7 @@ public class GoalFragment extends Fragment implements View.OnClickListener {
         getActivity().onBackPressed();
     }
 
-    /* Show keyboard for entering weight when fragment resumes */
+    /* Show keyboard when starting */
     @Override
     public void onResume() {
         super.onResume();
@@ -171,5 +171,13 @@ public class GoalFragment extends Fragment implements View.OnClickListener {
                 imgr.showSoftInput(goalWeightEditText, InputMethodManager.SHOW_IMPLICIT);
             }
         });
+    }
+
+    /* Hide keyboard when leaving */
+    @Override
+    public void onPause() {
+        super.onPause();
+        InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(getView().getWindowToken(), 0);
     }
 }

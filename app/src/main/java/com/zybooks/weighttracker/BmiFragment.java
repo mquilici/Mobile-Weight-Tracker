@@ -319,8 +319,8 @@ public class BmiFragment extends Fragment {
         line.setHasLabels(true);
         line.setHasLabelsOnlyForSelected(false);
         line.setHasPoints(false);
-        float labelPosition = 95f;
-        PointValue point = new PointValue(labelPosition*weightScale, (maxHeight-1)*heightScale);
+        float labelXPosition = 95f;
+        PointValue point = new PointValue(labelXPosition*weightScale, (maxHeight-1)*heightScale);
         line.setPointColor(getResources().getColor(R.color.bmiLabelColor));
         point.setLabel("Underweight");
         underWeightPoint.add(point);
@@ -332,8 +332,8 @@ public class BmiFragment extends Fragment {
         line.setHasLabels(true);
         line.setHasLabelsOnlyForSelected(false);
         line.setHasPoints(false);
-        labelPosition = 210f;
-        point = new PointValue(labelPosition*weightScale, (maxHeight-1)*heightScale);
+        labelXPosition = 210f;
+        point = new PointValue(labelXPosition*weightScale, (maxHeight-1)*heightScale);
         line.setPointColor(getResources().getColor(R.color.bmiLabelColor));
         point.setLabel("Normal");
         normalWeightPoint.add(point);
@@ -345,8 +345,8 @@ public class BmiFragment extends Fragment {
         line.setHasLabels(true);
         line.setHasLabelsOnlyForSelected(false);
         line.setHasPoints(false);
-        labelPosition = 270f;
-        point = new PointValue(labelPosition*weightScale, (maxHeight-1)*heightScale);
+        labelXPosition = 270f;
+        point = new PointValue(labelXPosition*weightScale, (maxHeight-1)*heightScale);
         line.setPointColor(getResources().getColor(R.color.bmiLabelColor));
         point.setLabel("Overweight");
         overWeightPoint.add(point);
@@ -358,8 +358,8 @@ public class BmiFragment extends Fragment {
         line.setHasLabels(true);
         line.setHasLabelsOnlyForSelected(false);
         line.setHasPoints(false);
-        labelPosition = 350f;
-        point = new PointValue(labelPosition*weightScale, (maxHeight-1)*heightScale);
+        labelXPosition = 350f;
+        point = new PointValue(labelXPosition*weightScale, (maxHeight-1)*heightScale);
         line.setPointColor(getResources().getColor(R.color.bmiLabelColor));
         point.setLabel("Obese");
         obeseWeightPoint.add(point);

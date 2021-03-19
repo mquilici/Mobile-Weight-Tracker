@@ -37,13 +37,13 @@
         <com.zybooks.weighttracker.HeightPickerEnglishPreference
             android:key="pref_height"
             android:title="Height"
-            android:defaultValue="70"
+            android:defaultValue="0"
             android:summary="Enter Height" />
 
         <com.zybooks.weighttracker.HeightPickerMetricPreference
             android:key="pref_height_metric"
             android:title="Height"
-            android:defaultValue="178"
+            android:defaultValue="0"
             android:summary="Enter Height" />
 
     </PreferenceCategory>
