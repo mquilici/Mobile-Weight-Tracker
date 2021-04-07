@@ -2,7 +2,6 @@
 An Android applications for tracking and plotting weight over time.
 
 <p align="center">
-     
      <img src="/images/Table_Light.jpeg" alt="alt text" width="250px" hspace="10">
      <img src="/images/Plot_Light.jpeg" alt="alt text" width="250px" hspace="10">
      <img src="/images/BMI_Light.jpeg" alt="alt text" width="250px" hspace="10">
