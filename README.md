@@ -1,9 +1,9 @@
 # Mobile-Weight-Tracker
 
 <p align="center">
-     <img src="/images/Table_Light.jpeg" alt="alt text" width="250px" hspace="10">
-     <img src="/images/Plot_Light.jpeg" alt="alt text" width="250px" hspace="10">
-     <img src="/images/BMI_Light.jpeg" alt="alt text" width="250px" hspace="10">
+     <img src="/images/Weight_Tracker_Table.png" alt="alt text" width="250px" hspace="10">
+     <img src="/images/Weight_Tracker_Plot.png" alt="alt text" width="250px" hspace="10">
+     <img src="/images/Weight_Tracker_BMI.png" alt="alt text" width="250px" hspace="10">
 </p>
 
 ### Description
